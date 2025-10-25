@@ -62,6 +62,7 @@ export async function upload_content(path: string, content: string, content_sha?
 		},
 		content: content,
 		sha: content_sha,
+		branch: GITHUB_INFO.branch,
 	} satisfies UploadBody);
 	const resp = await fetch(`https://api.github.com/repos/${GITHUB_INFO.organization}/${GITHUB_INFO.repository}/contents/${path}`, {
 		method: "PUT",
