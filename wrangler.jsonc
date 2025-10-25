@@ -27,7 +27,7 @@
 	 * https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
 	 */
 	"vars": {
-		"GH_REPO_INFO": "Taskeren/test/master",
+		"GH_REPO_INFO": "Taskeren/lwgmr-repository/main",
 		"ADMIN_USERNAME": "Taskeren"
 	}
 	/**
