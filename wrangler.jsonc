@@ -7,7 +7,9 @@
 	"name": "lightweight-github-maven-repository",
 	"main": "src/index.ts",
 	"compatibility_date": "2025-10-24",
-	"compatibility_flags": ["nodejs_compat_v2"],
+	"compatibility_flags": [
+		"nodejs_compat_v2"
+	],
 	"observability": {
 		"enabled": true
 	},
@@ -28,7 +30,8 @@
 	 */
 	"vars": {
 		"GH_REPO_INFO": "Taskeren/lwgmr-repository/master",
-		"ADMIN_USERNAME": "Taskeren"
+		"ADMIN_USERNAME": "Taskeren",
+		"OVERWRITE_ABLE": true
 	}
 	/**
 	 * Note: Use secrets to store sensitive data.
